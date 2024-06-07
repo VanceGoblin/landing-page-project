@@ -1,25 +1,64 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* CSS for Header */
 header {
-    height: 100px;
     width: 100%;
     position: fixed;
-    top: 0;
-    left: 0;
-    line-height: 100px;
-    padding-left: 50px;
-    font-size: 32px;
-    background-color:darkred;
-    color:lightblue;
+    top: 0; left: 0;
+    background-color: lightgray;
+    color: darkblue;
 }
 
-#header-spacing{
+nav {
     margin-left: 20px;
+    line-height: 100px;
+    font-size: 24px;
 }
 
-.margin{
-    margin-top: 125px;
+.spacing {
+    padding-left: 20px;
 }
 
-footer{
+
+main {
+    margin-top: 100px;
+    display: inline-block;
+    height: 600px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+section {
+    float: right;
+    width: 50%;
+}
+
+aside {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 90px;
+}
+
+#image {
+    padding: 7px;
+    border: 21px double darkblue;
+}
+/*
+
+
+
+aside {
+    float:left;
+}
+
+footer {
     height: 50px;
     width: 100%;
     position: fixed;
