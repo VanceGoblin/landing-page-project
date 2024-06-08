@@ -5,7 +5,7 @@
 
 /* Webpage Color */
 body {
-    background-color: #d9dcd6;
+    background-color: #F2E4D8;
 }
 
 /* CSS for Header */
@@ -13,8 +13,8 @@ header {
     width: 100%;
     position: fixed;
     top: 0; left: 0;
-    background-color: lightslategray;
-    color: darkblue;
+    background-color: #091B40;
+    color: white;
 }
 
 nav {
@@ -33,13 +33,12 @@ main {
     display: inline-block;
     height: 600px;
     width: 100%;
-    border: 1px solid red;
 }
 
 /* CSS Aside */
 aside {
     float: left;
-    width: 50%;
+    width: 45%;
     text-align: center;
     padding-top: 80px;
 }
@@ -52,14 +51,16 @@ aside {
 /* CSS Section */
 section {
     float: right;
-    width: 50%;
+    width: 55%;
     text-align: center;
     padding-top: 60px;
+    color: #0468BF;
 }
 
 h1 {
     font-size: 40px;
     padding-bottom: 20px;
+    color: darkblue;
 }
 
 .text {
@@ -73,6 +74,7 @@ h1 {
 
 #newsletter {
     font-size: 28px;
+    color: darkblue;
 }
 
 form {
@@ -85,8 +87,8 @@ form {
 }
 
 #button {
-    background-color: aqua;
-    border: 2px solid gray;
+    background-color: darkblue;
+    color: white;
     cursor: pointer;
 }
 
@@ -98,8 +100,8 @@ footer {
     left: 0;
     right: 0;
     text-align: center;
-    line-height: 20px;
+    line-height: 16px;
     font-size: 20px;
-    background-color: lightslategray;
-    color: darkblue;
+    background-color: #091B40;
+    color: white;
 }
