@@ -27,7 +27,7 @@ nav {
     padding-left: 20px;
 }
 
-/* CSS for Main and Child Elements */
+/* CSS for Main */
 main {
     margin-top: 100px;
     display: inline-block;
@@ -36,6 +36,7 @@ main {
     border: 1px solid red;
 }
 
+/* CSS Aside */
 aside {
     float: left;
     width: 50%;
@@ -48,9 +49,45 @@ aside {
     border: 21px double darkblue;
 }
 
+/* CSS Section */
 section {
     float: right;
     width: 50%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.text {
+    line-height: 24px;
+    font-size: 20px;
+}
+
+#padding {
+    padding-bottom: 20px;
+}
+
+#newsletter {
+    font-size: 28px;
+}
+
+form {
+    display: inline-block;
+}
+
+.input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#button {
+    background-color: aqua;
+    border: 2px solid gray;
+    cursor: pointer;
 }
 
 /* CSS for Footer */
