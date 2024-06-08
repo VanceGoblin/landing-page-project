@@ -1,7 +1,9 @@
+/* Webpage Font */
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Webpage Color */
 body {
     background-color: #d9dcd6;
 }
@@ -11,7 +13,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0; left: 0;
-    background-color: lightgray;
+    background-color: lightslategray;
     color: darkblue;
 }
 
@@ -25,7 +27,7 @@ nav {
     padding-left: 20px;
 }
 
-
+/* CSS for Main and Child Elements */
 main {
     margin-top: 100px;
     display: inline-block;
@@ -34,39 +36,33 @@ main {
     border: 1px solid red;
 }
 
-section {
-    float: right;
-    width: 50%;
-}
-
 aside {
     float: left;
     width: 50%;
     text-align: center;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 
 #image {
     padding: 7px;
     border: 21px double darkblue;
 }
-/*
 
-
-
-aside {
-    float:left;
+section {
+    float: right;
+    width: 50%;
 }
 
+/* CSS for Footer */
 footer {
-    height: 50px;
+    height: 100px;
     width: 100%;
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     left: 0;
+    right: 0;
     text-align: center;
     line-height: 20px;
-    font-size: 16px;
-    background-color:darkred;
-    color:lightblue;
+    font-size: 20px;
+    background-color: lightslategray;
+    color: darkblue;
 }
